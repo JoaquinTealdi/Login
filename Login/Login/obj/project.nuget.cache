@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uQ894sk7fXF9tAw7PtEIsuaY+LjHKGTl9M2+u4Mbssm9wu0/pvAYsO2c8QEZvMxN2ad95WLntNT837mdEoi9fA==",
+  "dgSpecHash": "BQznBsTYoruW+jKCq5Dk82ia1bbfJUaI0SJ5nNfafXtoZSPR4CsdDFruoaR/R/j3KPvlc64bLD9Yv43pioHkog==",
   "success": true,
-  "projectFilePath": "E:\\PROGRAMAS\\Dotnet\\MVC Login\\Login\\Login\\Login.csproj",
+  "projectFilePath": "E:\\PROGRAMAS\\Proyectos en GitHub\\C#\\Sistema Login\\Login\\Login\\Login\\Login.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaqu\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\joaqu\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

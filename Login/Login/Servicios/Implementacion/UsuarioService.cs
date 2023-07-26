@@ -13,9 +13,9 @@ namespace Login.Servicios.Implementacion
             _connection = connection;
         }
 
-        public async Task<Usuario> GetUsuario(string correo, string clave)
+        public async Task<Usuario> GetUsuario(string correo)
         {
-            Usuario usuarioEncontrado = await _connection.Usuarios.Where(usuario => usuario.Correo == correo && usuario.Clave == clave)
+            Usuario usuarioEncontrado = await _connection.Usuarios.Where(usuario => usuario.Correo == correo)
                 .FirstOrDefaultAsync();
 
             return usuarioEncontrado;

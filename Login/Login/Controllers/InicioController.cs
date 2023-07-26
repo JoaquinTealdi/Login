@@ -47,11 +47,16 @@ namespace Login.Controllers
         [HttpPost]
         public async Task<IActionResult> IniciarSesion(string correo, string clave)
         {
-            Usuario usuarioEncontrado = await _usuarioService.GetUsuario(correo, Utilidades.EncriptarClave(clave));
+            Usuario usuarioEncontrado = await _usuarioService.GetUsuario(correo);
 
             if (usuarioEncontrado == null)
             {
                 ViewData["Mensaje"] = "Usuario no encontrado";
+                return View();
+            }
+            else if (usuarioEncontrado.Clave != Utilidades.EncriptarClave(clave))
+            {
+                ViewData["Mensaje"] = "Contraseña incorrecta";
                 return View();
             }
 

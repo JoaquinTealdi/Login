@@ -11340,11 +11340,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PROGRAMAS\\Dotnet\\MVC Login\\Login\\Login\\Login.csproj",
+      "projectUniqueName": "E:\\PROGRAMAS\\Proyectos en GitHub\\C#\\Sistema Login\\Login\\Login\\Login\\Login.csproj",
       "projectName": "Login",
-      "projectPath": "E:\\PROGRAMAS\\Dotnet\\MVC Login\\Login\\Login\\Login.csproj",
+      "projectPath": "E:\\PROGRAMAS\\Proyectos en GitHub\\C#\\Sistema Login\\Login\\Login\\Login\\Login.csproj",
       "packagesPath": "C:\\Users\\joaqu\\.nuget\\packages\\",
-      "outputPath": "E:\\PROGRAMAS\\Dotnet\\MVC Login\\Login\\Login\\obj\\",
+      "outputPath": "E:\\PROGRAMAS\\Proyectos en GitHub\\C#\\Sistema Login\\Login\\Login\\Login\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
